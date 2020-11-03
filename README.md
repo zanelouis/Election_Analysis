@@ -28,12 +28,21 @@ The analysis of the election show that:
   -Diana DeGette 2, who received 73.8% of the votes and 272,892 number of votes.
 
 ## Challenge Overview
-For this challenge we will pull data from one data source and write the results to another file using Python.
+The election commission has requested some additional data to complete the audit in which we will assist with in this challenge.
 
-1. A python file named PyPoll.py is created to pull the data from one source.
-2. The results are coded in to write the results specified into a new file named election_analysis.txt.
-3. The files are pushed and committed to our repository with comments added along the way
-4. The Readme.md in the repository shared is updated with an overview summary.
+1. Calculate the voter turnout per county.
+2. Get a complete list of counties included.
+3. Calculate the total number of votes each county received.
+4. Calculate the percentage of votes for each county out of the total votes.
+5. Determine the county with the highest voter turnout.
 
 ## Challenge Summary
-We can provide the Colorado Board of Elections employee with the recent local congressional election by using PyPoll.py to pulling, analyzing and summarizing the data into a text file.
+The audit for the election commission concluded with:
+- The county list were:
+  -Jefferson, Denver and Arapahoe
+- The county results were:
+  -Jefferson: 10.5% (38,855)
+  -Denver: 82.8% (306,055)
+  -Arapahoe: 6.7% (24,801)
+ - The county with the largest turnout was:
+   -Denver, which contained 82.8% of the voters and 306,055 number of voters.
